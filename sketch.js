@@ -33,7 +33,7 @@ function setup() {
   //creating monkey
   monkey=createSprite(80,315,20,20);
   monkey.addAnimation("monkey",monkey_running);
-  monkey.scale=0.1;
+  monkey.scale=0.2;
   
   //creating ground
   ground1=createSprite(400,350,900,10);
@@ -48,11 +48,11 @@ function setup() {
 
 function draw() {
 //background  
-background("white");
+background("red");
 
   stroke("white");
   fill("blue");
-  textSize(20);
+  textSize(40);
   text("survivalTime:"+score,200,50);
   
   
